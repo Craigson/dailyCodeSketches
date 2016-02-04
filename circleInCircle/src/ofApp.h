@@ -1,11 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "blob.h"
-
 #include "ofxClipper.h"
-
-
 
 class ofApp : public ofBaseApp{
 
@@ -27,16 +23,6 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
     
     
-    vector < blob > blobs;
-    
-    
-    ofShader shader;
-    
-    
-    vector < ofPolyline > lineHistory;
-    
-    ofxTriangleMesh mesh;
-    
-    ofxClipper clipper;
-    
+        
+		ofxClipper clipper;
 };
